@@ -1,0 +1,70 @@
+header{
+    text-align: center;
+    justify-content: center;
+}
+
+/* Estilização da div para centralizar o conteúdo */
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+/* Estilização do restante da página, como cor de fundo e espaçamento */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Estilização da tabela */
+.my-table {
+    border-collapse: collapse; /* Funde as bordas das células adjacentes */
+    width: 70%; /* Define a largura da tabela para 70% da largura da página */
+    margin: 0 auto; /* Centraliza a tabela na página */
+}
+
+.my-table th, .my-table td {
+    border: 1px solid #ddd; /* Define uma borda de 1 pixel com cor cinza claro (#ddd) */
+    padding: 6px; /* Espaçamento interno de 6 pixels */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilização dos cabeçalhos */
+.my-table th {
+    background-color: #f2f2f2; /* Fundo cinza claro (#f2f2f2) para os cabeçalhos */
+    color: #333; /* Cor do texto dos cabeçalhos (#333) */
+}
+
+/* Estilização das linhas alternadas */
+.my-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Fundo cinza mais claro (#f9f9f9) para linhas pares */
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+}
+
+/* Estilos do conteúdo principal da página */
+.content {
+    padding: 20px;
+}
+
+/* Estilos do rodapé */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos das informações de contato */
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+}
